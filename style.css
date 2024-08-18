@@ -16,7 +16,24 @@ body {
     text-align: center;
     padding: 10px 0px !important;
 }
+.btn {
+    background: none !important;
+    color: navy !important;
+    border: 2px solid navy !important;
+    text-align: center !important;
+}
+.btn:hover {
+    border: 2px solid navy;
+    color: skyblue !important;
+    background-color: navy !important;
+}
 
+.btn:active {
+    background-color: navy !important;
+    color: white !important;
+    border: 2px solid white !important;
+    box-shadow: 5px 2px 10px white;
+}
 .logo img {
     height: 85px;
 }
@@ -74,21 +91,14 @@ body {
 }
 
 .contact-btn {
-    background: none;
-    color: navy;
     height: 50px;
     width: 140px;
-    border-radius: 25px;
-    border: 2px solid navy !important;
+    border-radius: 25px !important;
     transition: transform(0.4s) ease-in-out;
-
 }
 
 .contact-btn:hover {
-    color: skyblue;
-    background-color: navy;
     transform: 0.1s !important;
-
 }
 
 .home-section {
@@ -134,6 +144,8 @@ body {
 .about-details img {
     height: 600px;
     width: 40%;
+    border: 5px solid black;
+    border-radius: 20px;
 }
 
 .about-info {
@@ -149,6 +161,7 @@ body {
 .about-info li {
     list-style-type: none;
     font-size: 18px;
+    padding-top: 5px;
 }
 
 .about-info span {
@@ -259,29 +272,12 @@ body {
     padding: 10px 27px !important;
 }
 
-.projects-section .btn-primary {
+.projects-section .card-btn {
     height: 45px;
     width: 100px;
-    background: none;
-    border: 2px solid navy;
-    color: navy;
     font-family: playfair;
     font-size: 18px;
 }
-
-.projects-section .btn-primary:hover {
-    background: none;
-    border: 2px solid navy;
-    color: navy;
-}
-
-.projects-section .btn-primary:active {
-    background-color: navy !important;
-    color: white !important;
-    border: 2px solid white !important;
-    box-shadow: 5px 2px 10px white;
-}
-
 .projects-section .card-buttons {
     display: flex;
     justify-content: space-evenly;
@@ -300,7 +296,8 @@ body {
 .resume img {
    width: 450px;
    height: 580px;
-   border: 2px solid black;
+   border: 2px solid navy;
+   border-radius: 15px;
 }
 .resume-btn {
     display: flex;
@@ -310,24 +307,8 @@ body {
     margin-top: 40px;
         height: 60px;
         width: 200px;
-        background: none;
-        border: 2px solid navy;
-        color: navy;
         font-family: playfair;
         font-size: 20px;
-        text-align: center;
-}
-.resume-btn button:hover {
-    background: none;
-    border: 2px solid navy;
-    color: navy;
-}
-
-.resume-btn button:active {
-    background-color: navy !important;
-    color: white !important;
-    border: 2px solid white !important;
-    box-shadow: 5px 2px 10px white;
 }
 .contact-section {
     background-color: #add8e69d;

@@ -155,7 +155,7 @@
         font-size: 27px;
     }
 
-    .projects-section .btn-primary {
+    .projects-section .card-btn {
         width: 140px;
         height: 50px;
         font-size: 22px;
@@ -257,7 +257,7 @@
     }
 
     .about-details img {
-        height: 450px;
+        height: 400px;
     }
 
     .about-info {
@@ -286,13 +286,13 @@
         font-size: 24px;
     }
 
-    .projects-section .btn-primary {
+    .projects-section .card-btn {
         width: 100px;
         height: 45px;
         font-size: 18px;
     }
     .resume img {
-       height:80vh;
+       height:70vh;
      }
     .contact-section span {
         font-size: 19px;
@@ -353,13 +353,13 @@
         font-size: 22px;
     }
 
-    .projects-section .btn-primary {
+    .projects-section .card-btn {
         width: 80px;
         height: 40px;
         font-size: 16px;
     }
     .resume img {
-        height:70vh;
+        height:60vh;
       }
       .resume-btn button {
             height: 50px;
